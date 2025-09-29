@@ -1,0 +1,14 @@
+<?php
+// Définir le fuseau horaire
+date_default_timezone_set('Europe/Paris');
+
+// Récupérer la date et l'heure actuelles
+$currentDate = date('d/m/Y H:i:s');
+
+// Message de bienvenue
+$userName = "Utilisateur";
+
+// Affichage
+echo "<h1>Bienvenue, $userName !</h1>";
+echo "<p>Nous sommes le $currentDate.</p>";
+?>
